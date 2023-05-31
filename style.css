@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    
+    
+}
+
+body{
+
+    background-color: rgb(185, 176, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 0px;
+    
+
+}
+
+
+header{
+    background-image: linear-gradient(to top, rgb(14, 24, 14), rgb(79, 184, 79));
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+
+.title{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.menu a{
+    display: inline-flex;
+    text-decoration: none;
+    line-height: 0px;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: rgb(8, 104, 56);
+    background-color: rgba(255, 255, 255, 0.555);
+    transition: 0.5s all;
+}
+span{
+    color: rgb(49, 121, 58);
+}
+main{
+    background-color: white;
+    color: rgb(24, 54, 24);
+    
+    width: 1200px;
+    margin: auto;
+
+    padding-top: 20px;
+    padding: -35px;
+    
+    min-width: 320px;
+    
+}
+
+main p{
+    text-indent: 30px;
+    text-align: justify;
+    padding: 6px;
+    padding-right: 17px;
+    
+}
+
+div.titlep {
+    text-align: center;
+}
+
+main h1{
+    font-family: 'Idroid';
+    
+}
+main h2{
+    font-family: 'Idroid';
+    background-image: linear-gradient(to right, rgba(2, 243, 2, 0.301), rgba(29, 71, 29, 0));
+}
+
+main{
+    text-indent: 30px;
+    max-width: 100%;
+    word-wrap: break-word;
+
+}
+
+div.video {
+    background-color: rgb(24, 54, 24);
+    
+    margin: 30px 40px 30px 40px;
+    margin-left: 40px;
+    padding-bottom: 50%;
+    
+    position: relative;
+    
+    
+}
+
+div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        
+        height: 90%;
+        width: 90%;
+        
+        
+}
+
+
+main img{
+    display: inline-block;
+    margin: auto;
+}
+
+main img.imgpq{
+    width: 50%;
+    display: block;
+}
+
+.sourcedroids > img{
+    display: block;
+    margin: auto;
+}
+
+.sourceirina > img {
+    display: block;
+    margin: auto;
+}
+
+picture{
+    padding: 25px;
+}
+
+#background{
+    background-color: rgba(2, 243, 62, 0.158);
+}
+
+
+.div2{
+    
+    border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+    background-color: rgba(92, 189, 92, 0.445);
+}
+
+
+.video{
+    margin: 0%;
+    
+    background-color: rgb(16, 223, 27);
+}
+
+h3{
+    border-radius: 20px 20px 1px 1px;
+    color: white;
+    padding: 20px;
+    background-color: rgb(40, 85, 13);
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+
+a{
+    color: rgb(49, 121, 58);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(30, 90, 219);
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    
+    color: white;
+    background-color: rgb(12, 59, 15);
+    
+}
+
